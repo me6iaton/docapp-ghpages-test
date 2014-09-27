@@ -9,10 +9,10 @@ docpadConfig =
 
 	templateData: # Specify some site properties
 		site: # The production url of our website
-			url: "http://website.com"
+			url: "http://me6iaton.github.io/docapp-ghpages-test"
 
 		# Here are some old site urls that you would like to redirect from
-			oldUrls: ['www.website.com', 'website.herokuapp.com']
+#			oldUrls: ['www.website.com', 'website.herokuapp.com']
 
 		# The default title of our website
 			title: "Your Website"
@@ -102,4 +102,12 @@ docpadConfig =
 		ghpages:
 			deployRemote: 'deploy'
 			deployBranch: 'gh-pages'
+
+# Environments
+# =================================
+	environments:
+		development:
+			templateData:
+				site:
+					url: 'http://localhost:9778'
 module.exports = docpadConfig

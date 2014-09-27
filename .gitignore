@@ -3,6 +3,4 @@ out/
 .idea/
 .DS_Store
 *.iml
-src/files/vendor/components-bootstrap
-src/files/vendor/jquery
 .docpad.db
