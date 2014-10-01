@@ -97,11 +97,14 @@ docpadConfig =
 					res.redirect 301, newUrl + req.url
 				else
 					next() # Export our DocPad Configuration
+
 # Plugins configurations
 	plugins:
 		ghpages:
 			deployRemote: 'deploy'
 			deployBranch: 'gh-pages'
+			environment: 'production'
+#			environment: 'static'
 
 # Environments
 # =================================
