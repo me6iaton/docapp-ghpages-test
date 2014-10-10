@@ -4,4 +4,4 @@ layout: post
 tags: ['intro','post']
 ---
 
-This is test conflict. This is a  blog post  **build with atom!** 
+This is test remote. This is a  blog post  **build with atom!** 
