@@ -29,8 +29,7 @@
     "npm": "1.4.x"
   },
   "dependencies": {
-    "bower": "~1",
-    "docpad": "6.x",
+    "docpad": "me6iaton/docpad",
     "docpad-plugin-cleanurls": "2.x",
     "docpad-plugin-coffeescript": "2.x",
     "docpad-plugin-eco": "2.x",
