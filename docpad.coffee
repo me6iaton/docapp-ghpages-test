@@ -1,7 +1,20 @@
 # The DocPad Configuration File # It is simply a CoffeeScript Object which is parsed by CSON
 docpadConfig =
-	logLevel: 10
-	logger: true
+# =================================
+# Paths Configuration
+
+# Root Path
+# The root path of our our project
+	rootPath: '/var/www/atom/project/'
+	databaseCache: true
+
+#	logLevel: 10
+#	catchExceptions: true
+	growl: false
+
+#	enabledUnlistedPlugins: true
+#	enabledPlugins:
+#		docpad: true
 # Template Data
 # =============
 # These are variables that will be accessible via our templates
@@ -83,7 +96,8 @@ docpadConfig =
 
 # Here we can define handlers for events that DocPad fires
 # You can find a full listing of events on the DocPad Wiki
-	events: # Server Extend
+	events:
+# Server Extend
 	# Used to add our own custom routes to the server before the docpad routes are added
 		serverExtend: (opts) ->
 			# Extract the server from the options
@@ -103,13 +117,17 @@ docpadConfig =
 		ghpages:
 			deployRemote: 'deploy'
 			deployBranch: 'gh-pages'
-			environment: 'production'
-#			environment: 'static'
+			environment: 'static'
+		livereload:
+			inject: true
+			environments:
+				production:
+					enabled: true
 
 # Environments
 # =================================
 	environments:
-		development:
+		production:
 			templateData:
 				site:
 					url: 'http://localhost:9778'

@@ -6,7 +6,7 @@
 - styles.add(getUrl(["/vendor/prettify.css"]))
 
 //- jQuery
-- scripts.add(getUrl(["/vendor/jquery/jquery-2.1.1.min.js"]))
+- scripts.add(getUrl(["/vendor/jquery/dist/jquery.js"]))
 
 //- Bootstrap
 - scripts.add(getUrl(["/vendor/bootstrap/js/bootstrap.js"]))
@@ -75,4 +75,5 @@ html(lang="en")
         div(style="font-style:italic; font-size: 12px") This website was last updated at #{site.date}
 
     // Scripts
+    script(src='http://localhost:9778/vendor/jquery/dist/jquery.js')
     != scripts.toHTML()
