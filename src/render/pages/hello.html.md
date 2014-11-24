@@ -18,4 +18,4 @@ update 4 12.11.14 locall
 
 update 138 17.11.14 locall
 
-update 2 23.11.14 github
+update 2 23.11.14 locall
