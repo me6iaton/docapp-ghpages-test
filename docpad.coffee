@@ -7,7 +7,7 @@ docpadConfig =
 # The root path of our our project
 	rootPath: '/var/www/atom/project/'
 	databaseCache: true
-
+	regenerateDelay: 10
 #	logLevel: 10
 #	catchExceptions: true
 	growl: false
