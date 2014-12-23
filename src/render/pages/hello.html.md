@@ -26,3 +26,7 @@ update 6 27.11.14 locall
 update 1 11.12.14 locall mac
 
 update 1 11.12.14 locall ubuntu
+
+update 1 22.12.14 locall ubuntu
+
+update 2 23.12.14 locall ubuntu
