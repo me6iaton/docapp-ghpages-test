@@ -124,10 +124,10 @@ docpadConfig =
       deployBranch: 'gh-pages'
       environment: 'static'
     livereload:
-      inject: true
+      inject: false
       environments:
         production:
-          enabled: true
+          enabled: false
 
 # Environments
 # =================================
