@@ -35,4 +35,4 @@ update 45 26.12.14 locall ubuntu
 
 update 2 27.12.14 locall ubuntu
 
-update 1 27.12.14 web
+update 2 27.12.14 web
