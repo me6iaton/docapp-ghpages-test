@@ -5,11 +5,12 @@ docpadConfig =
 
 # Root Path
 # The root path of our our project
-  databaseCache: true
-  regenerateDelay: 10
-#  logLevel: 0
-  catchExceptions: true
+  databaseCache: false
+  regenerateDelay: 100
+#  logLevel: 9
+  catchExceptions: false
   growl: false
+#  skipUnsupportedPlugins: false
 
 #	enabledUnlistedPlugins: true
 #	enabledPlugins:

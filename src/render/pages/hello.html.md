@@ -35,4 +35,8 @@ update 45 26.12.14 locall ubuntu
 
 update 2 27.12.14 locall ubuntu
 
-update 3 27.12.14 locall ubuntu
+update 4 27.12.14 locall ubuntu
+
+update 8 6.2.15 locall ubuntu
+
+update 7 7.2.15 locall ubuntu
