@@ -39,4 +39,4 @@ update 4 27.12.14 locall ubuntu
 
 update 8 6.2.15 locall ubuntu
 
-update 7 7.2.15 locall ubuntu
+update 8 7.2.15 locall ubuntu
